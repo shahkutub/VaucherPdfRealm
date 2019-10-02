@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginTop="@dimen/_3sdp">
+
+
+    <TextView
+        android:id="@+id/etItemDrugName"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_bg"
+        android:inputType="number"
+        android:enabled="false"
+        android:textColor="#000"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:textSize="@dimen/_10sdp"
+        />
+
+    <TextView
+        android:id="@+id/etItemUnitPrice"
+        android:layout_width="0dp"
+        android:layout_weight=".7"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_bg"
+        android:inputType="number"
+        android:enabled="false"
+        android:textColor="#000"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:textSize="@dimen/_10sdp"
+        />
+    <TextView
+        android:id="@+id/etItemQuantity"
+        android:layout_width="0dp"
+        android:layout_weight=".7"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_bg"
+        android:inputType="number"
+        android:padding="@dimen/_5sdp"
+        android:textColor="#000"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:textSize="@dimen/_10sdp"
+        />
+    <TextView
+        android:id="@+id/etItemTotal"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_bg"
+        android:inputType="number"
+        android:enabled="false"
+        android:textColor="#000"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:textSize="@dimen/_10sdp"
+        />
+
+    <ImageButton
+        android:id="@+id/minus"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="@dimen/_30sdp"
+        android:visibility="gone"
+        android:src="@drawable/ic_clear_black_24dp" />
+
+
+</LinearLayout>

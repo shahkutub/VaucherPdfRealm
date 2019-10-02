@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:id="@+id/linFullScreen"
+    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Haque Pharmacy"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="#15A79D"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_5sdp"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/pharamacy"
+            android:layout_margin="@dimen/_20sdp"
+            android:visibility="gone"
+            />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upazila: Boalkhali, District: Chittagong, Division: Chittagong"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        android:textColor="#15A79D"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/_5sdp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile: 01617-660070"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        android:textColor="#15A79D"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/_5sdp"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:background="#15A79D"
+        android:textColor="#fff"
+        android:onClick="onClickAdd"
+        />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="wrap_content"
+        android:text="Sale"
+        android:background="#15A79D"
+        android:textColor="#fff"
+        android:onClick="onClickSale"
+        />
+
+</LinearLayout>
